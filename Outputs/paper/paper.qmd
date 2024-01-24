@@ -1,21 +1,22 @@
 ---
-title: "Discrepancy of Indoor Ice Rink Pad Sizes In Toronto"
+title: "Toronto Ice Rink Pads Categorized Based on Total Area"
 author: "Enoch Won"
 format: pdf
+date: "January 24, 2024"
 editor: visual
 ---
 
-All analyses were performed using R Statistical Software(v4.3.2)
-
 Abstract
+This paper uses the data set of indoor ice rink pads in arenas and recreational community centers across Toronto from City of Toronto Open Database. Based on the analysis of the dimensions of ice pads and the different pad size category, a relevantly high discrepancy was observed across different ice pads. There is a positive correlation between ice pad length and width (with the exception of an outlier), which supports the hypothesis that different categories of ice pads have a larger overall area, rather than it being solely larger in length or width. 
 
-Introduction
+All analyses were performed using R Statistical Software(v4.3.2)
 
 Data
 
 ```{r}
 #| echo: false
 library(dplyr)
+library(readr)
 library(opendatatoronto)
 library(knitr)
 library(ggplot2)
