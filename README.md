@@ -4,5 +4,7 @@ This repo provides an analysis of Toronto's indoor ice rinks and general informa
 ## File Structure
 This repo is structured as follows:
 - `inputs/data` contains the data set sourced from the City of Toronto Open Database including the raw, unedited data.
-- `outputs/`
- 
+- `outputs/paper` contains the files used to create the paper, including the .qmd file and the pdf of the paper.
+- `scripts` contains the R scripts used to simulate and download the data set.
+ ## LLM Statement
+ All work in this repo has been produced through my own learning and knowledge using RStudio. All sources are cited. 
