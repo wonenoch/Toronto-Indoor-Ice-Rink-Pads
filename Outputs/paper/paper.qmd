@@ -5,6 +5,9 @@ format: pdf
 date: "January 24, 2024"
 editor: visual
 ---
+```{r}
+setwd("C:/Users/enoch/OneDrive/Desktop/STA302/Term Paper 1/inputs/data")
+```
 
 Abstract
   This paper uses the data set of indoor ice rink pads in arenas and recreational community centers across Toronto from City of Toronto Open Database. Based on the analysis of the dimensions of ice pads and the different pad size category, a relevantly high discrepancy was observed across different ice pads. There is a positive correlation between ice pad length and width (with the exception of an outlier), which supports the hypothesis that different categories of ice pads have a larger overall area, rather than it being solely larger in length or width. 
@@ -21,10 +24,7 @@ library(opendatatoronto)
 library(knitr)
 library(ggplot2)
 
-csv_file_path <- "unedited_data.csv"
-unedited_data <- read.csv(csv_file_path)
-
-# Data Cleaning
+unedited_data <- read_csv("unedited_data.csv")
 data <- na.omit(unedited_data)
 
 # Summary Statistics (Mean, Median, Max, Min, etc.)
