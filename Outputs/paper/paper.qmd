@@ -44,7 +44,7 @@ plot(data[[variable6]], data[[variable7]], main = paste("Scatter Plot of", varia
 ```
 
 Results
-The analysis shows that there is slight variance among pad dimensions, and the graph shows thaat there is a slight positive correlation between "Pad Length" and "Pad Width". There is an outlier, which has a very short pad length, but a very wide pad width. This is the case for an International pad size, in which the dimensions of the ice rink pad is drastically different than any other regulation size. 
+The analysis shows that there is slight variance among pad dimensions, and the graph shows that there is a slight positive correlation between "Pad Length" and "Pad Width". There is an outlier, which has a very short pad length, but a very wide pad width. This is the case for an International pad size, in which the dimensions of the ice rink pad is drastically different than any other regulation size. 
 
 References
 
